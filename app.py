@@ -13,9 +13,9 @@ except Exception:
 def detect(image):
     image = np.array(image.convert('RGB'))
     faces = face_cascade.detectMultiScale(image=image, scaleFactor=1.3, minNeighbors=5)
+    cv2.putText(image,'Life2Coding',(30,256), font, 2.5,(255,255,255),2,cv2.LINE_AA)
     for (x, y, w, h) in faces:
         cv2.rectangle(img=image, pt1=(x, y), pt2=(x + w, y + h), color=(255, 0, 0), thickness=2)
-	cv2.putText(image,"Unknown",(x+6,y-6),cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),2)
     return image, faces
 def about():
 	st.write(
