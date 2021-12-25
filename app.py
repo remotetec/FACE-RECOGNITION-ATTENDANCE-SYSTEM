@@ -25,6 +25,7 @@ def about():
         thier data ''')
 def main():
     st.title("Demo Face Detection : ")
+    st.write("Made With ❤️ by Rohit Sahu")
     activities = ["Home", "About"]
     choice = st.sidebar.selectbox("Select the Option", activities)
     if choice == "Home":
