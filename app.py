@@ -15,7 +15,7 @@ def detect(image):
     faces = face_cascade.detectMultiScale(image=image, scaleFactor=1.3, minNeighbors=5)
     for (x, y, w, h) in faces:
         cv2.rectangle(img=image, pt1=(x, y), pt2=(x + w, y + h), color=(255, 0, 0), thickness=2)
-	cv2.putText(img=image,"Unknown", pt1=(x, y), pt2=(x + w, y + h), color=(255, 0, 0), thickness=2)
+    cv2.putText(img=image,"Unknown", pt1=(x, y), pt2=(x + w, y + h), color=(255, 0, 0), thickness=2)
     return image, faces
 def about():
 	st.write(
