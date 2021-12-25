@@ -23,10 +23,17 @@ def about():
         we are marking the attendance by recognizing the face and save it to excel sheet and also providing
         the dashboad at that we can see the attendance of user and also see the graph and some plot according to
         thier data ''')
+
+def Project():
+	st.write(
+		'''Please Click on the Below link for reaching out the project
+		Read more :point_right: face-recognition-attendance-system.epizy.com
+		''')
+
 def main():
     st.title("Demo Face Detection : ")
     st.write("Made With ❤️ by Rohit Sahu")
-    activities = ["Home", "About"]
+    activities = ["Home", "About","Project"]
     choice = st.sidebar.selectbox("Select the Option", activities)
     if choice == "Home":
     	st.write("Go to the About section from the sidebar to Know more about our project.")
@@ -37,6 +44,8 @@ def main():
     			result_img, result_faces = detect(image=image)
     			st.image(result_img, use_column_width = True)
     			st.success("Found {} faces\n".format(len(result_faces)))
+    elif choice == "About":
+    	about()
     elif choice == "About":
     	about()
 if __name__ == "__main__":
