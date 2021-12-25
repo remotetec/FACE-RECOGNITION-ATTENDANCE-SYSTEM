@@ -13,7 +13,7 @@ try:
     smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_smile.xml')
 except Exception:
     st.write("Error loading cascade classifiers")
-def detect(image)
+def detect(image):
     image = np.array(image.convert('RGB'))
     faces = face_cascade.detectMultiScale(image=image, scaleFactor=1.3, minNeighbors=5)
     for (x, y, w, h) in faces:
