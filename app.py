@@ -1,4 +1,3 @@
-# Importing required libraries, obviously
 import streamlit as st
 import cv2
 from PIL import Image
@@ -19,11 +18,11 @@ def detect(image):
 def about():
 	st.write(
 		'''It is just an demo page for showing the face Detection using Haar cascade Classifiers
-        and for making this webpage we are taking help from bootstrap for making this webpage and 
+        and for making this webpage we are taking help from bootstrap and streamlit  and 
         it is uploaded on heroku. our real project is Face-Recognition-Attendance-System in that project
         we are marking the attendance by recognizing the face and save it to excel sheet and also providing
-        the dashboad at that we can see the attendance of user and also see the graph and some plot according 
-        thier data.''')
+        the dashboad at that we can see the attendance of user and also see the graph and some plot according to
+        thier data ''')
 def main():
     st.title("Demo Face Detection : ")
     activities = ["Home", "About"]
