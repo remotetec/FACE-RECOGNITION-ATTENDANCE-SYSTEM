@@ -36,8 +36,7 @@ def main():
     activities = ["Home", "About","Project"]
     choice = st.sidebar.selectbox("Select the Option", activities)
     if choice == "Home":
-    	st.write("Go to the About section from the sidebar to Know more about our project.\n
-	Go to the Project section from the sidebar to Get the link of project.")
+    	st.write("Go to the About section from the sidebar to Know more about our project And Go to the Project section from the sidebar to Get the link of project.")
     	image_file = st.file_uploader("Upload image", type=['jpeg', 'png', 'jpg', 'webp'])
     	if image_file is not None:
     		image = Image.open(image_file)
