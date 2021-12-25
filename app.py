@@ -26,8 +26,8 @@ def about():
 
 def Project():
 	st.write(
-		'''Please Click on the Below link for reaching out the project
-		Read more :point_right: face-recognition-attendance-system.epizy.com
+		'''Please Click on the Below link for reaching out the project 👇🏻👇🏻👇🏻👇🏻👇🏻
+		Read More :point_right: face-recognition-attendance-system.epizy.com
 		''')
 
 def main():
@@ -46,7 +46,7 @@ def main():
     			st.success("Found {} faces\n".format(len(result_faces)))
     elif choice == "About":
     	about()
-    elif choice == "About":
-    	about()
+    elif choice == "Project":
+    	Project()
 if __name__ == "__main__":
     main()
