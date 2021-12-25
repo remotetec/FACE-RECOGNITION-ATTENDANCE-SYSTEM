@@ -26,7 +26,8 @@ def about():
 
 def Project():
 	st.write(
-		'''Please Click on the Below link for reaching out the project �🏻
+		'''Please Click on the Below link for reaching out the project 
+		
 		Read More :point_right: https://face-recognition-attendance-system.epizy.com/.
 		''')
 
