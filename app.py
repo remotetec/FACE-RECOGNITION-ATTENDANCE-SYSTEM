@@ -19,23 +19,26 @@ def detect(image):
 def about():
 	st.write(
 		'''It is just an demo page for showing the face Detection using Haar cascade Classifiers
-        and for making this webpage we are taking help from bootstrap for making this webpage and it is uploaded on heroku  
+        and for making this webpage we are taking help from bootstrap for making this webpage and 
+        it is uploaded on heroku. our real project is Face-Recognition-Attendance-System in that project
+        we are marking the attendance by recognizing the face and save it to excel sheet and also providing
+        the dashboad at that we can see the attendance of user and also see the graph and some plot according 
+        thier data.
 Read more :point_right: https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html
 https://sites.google.com/site/5kk73gpu2012/assignment/viola-jones-face-detection#TOC-Image-Pyramid
 		''')
 def main():
-    st.title("Face Detection App :smile: ")
+    st.title("Demo Face Detection : ")
     st.write("**Using the Haar cascade Classifiers**")
     activities = ["Home", "About"]
     choice = st.sidebar.selectbox("Select the Option", activities)
     if choice == "Home":
     	st.write("Go to the About section from the sidebar to know more about this project.")
-        # You can specify more file types below if you want
     	image_file = st.file_uploader("Upload image", type=['jpeg', 'png', 'jpg', 'webp'])
     	if image_file is not None:
     		image = Image.open(image_file)
     		if st.button("Continue"):
-                result_img, result_faces = detect(image=image)
+                	result_img, result_faces = detect(image=image)
     			st.image(result_img, use_column_width = True)
     			st.success("Found {} faces\n".format(len(result_faces)))
     elif choice == "About":
