@@ -26,8 +26,7 @@ def about():
 
 def Project():
 	st.write(
-		'''Please Click on the Below link for reaching out the project 
-		
+		'''Please Click on the Below link for reaching out the project :                                                                                    
 		Read More :point_right: https://face-recognition-attendance-system.epizy.com/.
 		''')
 
@@ -38,6 +37,7 @@ def main():
     choice = st.sidebar.selectbox("Select the Option", activities)
     if choice == "Home":
     	st.write("Go to the About section from the sidebar to Know more about our project.")
+	st.write("Go to the Project section from the sidebar to Get the link of project.")
     	image_file = st.file_uploader("Upload image", type=['jpeg', 'png', 'jpg', 'webp'])
     	if image_file is not None:
     		image = Image.open(image_file)
