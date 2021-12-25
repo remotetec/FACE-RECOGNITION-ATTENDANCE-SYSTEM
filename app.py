@@ -13,12 +13,8 @@ except Exception:
 def detect(image):
     image = np.array(image.convert('RGB'))
     faces = face_cascade.detectMultiScale(image=image, scaleFactor=1.3, minNeighbors=5)
-    name="Unknown"
     for (x, y, w, h) in faces:
-        y1,x2,y2,x1=faceloc
-        y1,x2,y2,x1=y1*4,x2*4,y2*4,x1*4
         cv2.rectangle(img=image, pt1=(x, y), pt2=(x + w, y + h), color=(255, 0, 0), thickness=2)       
-        cv2.putText(img=image,name,(x1+6,y2-6),cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),2)
     return image, faces
 def about():
 	st.write(
