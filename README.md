@@ -15,6 +15,10 @@ The Faculty Can upload the Attendance Sheet .and dowload from the student detail
 
 
 
+https://user-images.githubusercontent.com/89459208/147766310-4ee2da20-188a-4d3f-807b-c341d6e991da.mp4
+
+
+
 ## WORK FLOW 
 
  
