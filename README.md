@@ -11,9 +11,38 @@ The Faculty Can upload the Attendance Sheet .and dowload from the student detail
 ==> Python version 3.6.8 was used for the whole project.<br>
 ==> You can find all the models in [models](https://github.com/rohitsahu70/HEALTHWAY-WEBSITE-NETLIFY-) folder.
 
-## APP WORK FLOW 
-==> Face detect by camera ==> Store the name,date and entry_time ==> another Camera store the exit_time ==> All data store in .csv format ==> generating new columns "Duration" ==> Python Script run and return image of retention metrics ==> Faculty can upload the attendance file on dashboard ==>  Faculty can check the  Student Attendance and behaviour during the week.
-
-
 ## Live Video of Attendance System
-![alt text]()
+
+
+
+## APP WORK FLOW 
+
+ 
+                                                                  Face detected by camera
+                                                                            ||
+                                                                            ||
+                                                                  Store the name,date and 
+                                                                        entry_time
+                                                                            ||
+                                                                            ||
+                                                                  another Camera store the 
+                                                                        exit_time 
+                                                                            ||
+                                                                            ||
+                                                                  All data store in .csv format
+                                                                            ||
+                                                                            ||          
+                                                                  generating new columns "Duration" 
+                                                                            ||
+                                                                            ||
+                                                                  Python Script run and return image
+                                                                      of retention metrics
+                                                                            ||
+                                                                            ||
+                                                                  Faculty can upload the attendance 
+                                                                      file on dashboard 
+                                                                            ||
+                                                                            ||
+                                                                  Faculty can check the Student Attendance 
+                                                                  and behaviour during the week.
+
