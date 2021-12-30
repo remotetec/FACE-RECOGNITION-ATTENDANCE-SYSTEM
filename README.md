@@ -15,7 +15,7 @@ The Faculty Can upload the Attendance Sheet .and dowload from the student detail
 
 
 
-## APP WORK FLOW 
+## WORK FLOW 
 
  
                                                                   Face detected by camera
