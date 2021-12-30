@@ -1,9 +1,7 @@
 # Face Recognition Attendance System
 
 ## About
-In this Attendance System the attendance for students is marked using Face verification. The Faculty has also provding a dashboardwhere they can check Student behaviour , add a student, modify student details.<br>
-The Faculty Can upload the Attendance Sheet .and dowload from the student details<br>
-**PHP**  was used for the development of the whole web app. **OpenCv and face_recognition API's** were used for the development of Face Recognizer. The Face Recognizer can detect faces  and mark their attendance into Database.<br>
+It is an Automatic Attendance Marking Application and in this Application we are also providing a dashboard for admin and admin can check the attendace of student and also check the retention metrics and for marking the attendance we are using face recognition library and storing our data in excel sheet after collecting data of 7 days we are performing data analytics operation we are adding a new column that is duration and it is the diffrence between Entry time and Exit time after that we are ploting line plot and pie chart . and uploading on dashboard and also providing Id and Password of admin and admin can add the student and delete the student from table and also dowload attendance sheet from dashboard.
 
 ## NOTE
 
