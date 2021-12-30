@@ -7,7 +7,7 @@ The Faculty Can upload the Attendance Sheet .and dowload from the student detail
 
 ## NOTE
 
-==> You can access the website live at: https://healthway-daignosis-application.netlify.app/ <br>
+==> You can access the website live at: http://face-recognition-attendance-system.epizy.com/ <br>
 ==> Python version 3.6.8 was used for the whole project.<br>
 ==> You can find all the models in [models](https://github.com/rohitsahu70/Face-Recognition-Attendance-System/tree/main/dashboard) folder.
 
