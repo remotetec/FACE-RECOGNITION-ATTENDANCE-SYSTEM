@@ -1,13 +1,13 @@
 # Face Recognition Attendance System
 
 ## About
-It is an Automatic Attendance Marking Application and in this Application we are also providing a dashboard for admin and admin can check the attendace of student and also check the retention metrics and for marking the attendance we are using face recognition library and storing our data in excel sheet after collecting data of 7 days we are performing data analytics operation we are adding a new column that is duration and it is the diffrence between Entry time and Exit time after that we are ploting line plot and pie chart . and uploading on dashboard and also providing Id and Password of admin and admin can add the student and delete the student from table and also dowload attendance sheet from dashboard.
+It is an Automatic Attendance Marking Application and in this Application, we are also providing a dashboard for admin and admin can check the attendance of students and also check the retention metrics for marking the attendance we are using face recognition library and storing our data in excel sheet after collecting data of 7 days we are performing data analytics operation we are adding a new column that is the duration and it is the difference between Entry time and Exit time after that we are plotting line plot and pie chart. and uploading on the dashboard and also providing Id and Password of admin and admin can add the student and delete the student from the table and also download attendance sheet from the .
 
 ## NOTE
 
 ==> You can access the website live at: http://face-recognition-attendance-system.epizy.com/ <br>
 ==> Python version 3.6.8 was used for the whole project.<br>
-==> You can find all the models in [models](https://github.com/rohitsahu70/Face-Recognition-Attendance-System/tree/main/dashboard) folder.
+==> You can find all the function of dashboardh ere [models](https://github.com/rohitsahu70/Face-Recognition-Attendance-System/tree/main/dashboard) folder.
 
 ## Live Video of Attendance System
 
