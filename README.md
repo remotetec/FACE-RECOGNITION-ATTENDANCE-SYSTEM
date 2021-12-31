@@ -7,7 +7,7 @@ It is an Automatic Attendance Marking Application and in this Application, we ar
 
 ==> You can access the website live at: http://face-recognition-attendance-system.epizy.com/ <br>
 ==> Python version 3.6.8 was used for the whole project.<br>
-==> You can find all the function of dashboardh ere [models](https://github.com/rohitsahu70/Face-Recognition-Attendance-System/tree/main/dashboard) folder.
+==> You can find all the function of dashboardh here [models](https://github.com/rohitsahu70/Face-Recognition-Attendance-System/tree/main/dashboard) folder.
 
 ## Live Video of Attendance System
 
