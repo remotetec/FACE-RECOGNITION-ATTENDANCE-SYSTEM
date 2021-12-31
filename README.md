@@ -1,7 +1,7 @@
 # Face Recognition Attendance System
 
 ## About
-It is an Automatic Attendance Marking Application and in this Application, we are also providing a dashboard for admin and admin can check the attendance of students and also check the retention metrics for marking the attendance we are using face recognition library and storing our data in excel sheet after collecting data of 7 days we are performing data analytics operation we are adding a new column that is the duration and it is the difference between Entry time and Exit time after that we are plotting line plot and pie chart. and uploading on the dashboard and also providing Id and Password of admin and admin can add the student and delete the student from the table and also download attendance sheet from the .
+It is an Automatic Attendance Marking Application and in this Application, we are also providing a dashboard for admin and admin can check the attendance of students and also check the retention metrics for marking the attendance we are using face recognition library and storing our data in excel sheet after collecting data of 7 days we are performing data analytics operation we are adding a new column that is the duration and it is the difference between Entry time and Exit time after that we are plotting line plot and pie chart. and uploading on the dashboard and also providing Id and Password of admin and admin can add the student and delete the student from the table and also download attendance sheet from the Dashboard.
 
 ## NOTE
 
