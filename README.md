@@ -17,8 +17,10 @@ It is an Automatic Attendance Marking Application and in this Application, we ar
 ==> Python version 3.6.8 was used for the whole project.<br>
 ==> You can find all the function of dashboardh here [models](https://github.com/rohitsahu70/Face-Recognition-Attendance-System/tree/main/dashboard) folder.
 
+## Work Flow
+
+![Blank diagram](https://user-images.githubusercontent.com/89459208/151711857-f885bb22-d948-4b2d-9c81-bcf5ceb63e04.jpeg)
+
 ## Live Video of Attendance System
-
-
 
 https://user-images.githubusercontent.com/89459208/147766310-4ee2da20-188a-4d3f-807b-c341d6e991da.mp4
